@@ -1,6 +1,6 @@
 {
   "name": "topweng-npm",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "自用",
   "main": "index.js",
   "scripts": {
@@ -17,11 +17,11 @@
     "url": "https://github.com/wengshuang/my-npm/issues"
   },
   "homepage": "https://github.com/wengshuang/my-npm#readme",
-  "dependencies": {
-    "topweng-npm": "^1.0.1"
-  },
   "devDependencies": {
     "eslint": "^9.1.1",
     "prettier": "3.2.5"
+  },
+  "dependencies": {
+    "topweng-npm": "^1.0.5"
   }
 }
