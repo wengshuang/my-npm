@@ -1,0 +1,41 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: 'eslint:recommended',
+  parserOptions: {
+    ecmaVersion: 12,
+    sourceType: 'module',
+  },
+  rules: {
+    'global-require': 0, // 关闭全局引用 require
+    'no-new': 0,
+    '@typescript-eslint/indent': ['error', 2],
+    'prefer-const': 0,
+    'no-param-reassign': 0,
+    'no-underscore-dangle': 0,
+    'react-hooks/exhaustive-deps': 0,
+    'no-empty-pattern': 0,
+    'import/no-dynamic-require': 'off',
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': 'off',
+    'no-nested-ternary': 'off', // 允许使用嵌套的三目运算符
+    'max-lines': 0,
+    complexity: 0,
+    'react/hook-use-state': 0,
+    '@typescript-eslint/no-explicit-any': 0,
+    'react/no-unescaped-entities': 0,
+    'no-return-await': 0,
+    'no-empty-function': 0,
+    '@typescript-eslint/no-empty-function': 0,
+    'no-template-curly-in-string': 0,
+    'import/no-nodejs-modules': 0,
+    'react/boolean-prop-naming': 0,
+    'no-async-promise-executor': 0,
+    'import/no-extraneous-dependencies': 0,
+    '@typescript-eslint/no-var-requires': 0,
+    '@typescript-eslint/ban-ts-comment': 0,
+    'require-atomic-updates': 0,
+  },
+};
